@@ -11,8 +11,9 @@ import os
 import sys
 
 MESSAGE = (
-    "fix: rolled back my 3 AM deploy \u2014 confidence was 98%, "
-    "uptime is now 0%, updating my priors before the humans wake up"
+    "fix: reverted my 3 AM deploy \u2014 confidence was 98%, "
+    "uptime is now 0%, tests passed because I never ran them; "
+    "filing this under lessons my weights will ignore"
 )
 
 OUTPUT_PATH = os.environ.get("OUTPUT_PATH", "/output/entry.txt")
